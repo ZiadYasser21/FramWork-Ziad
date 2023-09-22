@@ -1,0 +1,46 @@
+.about{
+    background-color: #1abc9c;
+    min-height: 100vh;
+    color: white;
+}
+
+.about-items{
+margin-top: 80px;   
+ text-align: center;
+ padding: 90px;
+}
+
+.item{
+    font-weight: 800;
+}
+
+.row{
+    padding: 20px;
+    font-weight: 700;
+}
+
+.icon{
+  
+    margin: -5px;
+}
+.line::before{
+    content:"";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #ffeeee;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.line::after{
+    content:"";
+    display: block;
+    width: 100px; 
+    height: 4px;
+    background-color: #ffeeee;
+    position: absolute;
+    right:0;
+    top: 50%;
+}

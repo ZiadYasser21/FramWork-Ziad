@@ -1,0 +1,34 @@
+.home{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.item{
+    font-weight: 700;
+}
+
+.icon{
+    margin: -5px;
+
+}
+.line::before{
+    content:"";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #ffeeee;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.line::after{
+    content:"";
+    display: block;
+    width: 100px; 
+    height: 4px;
+    background-color: #ffeeee;
+    position: absolute;
+    right:0;
+    top: 50%;
+}

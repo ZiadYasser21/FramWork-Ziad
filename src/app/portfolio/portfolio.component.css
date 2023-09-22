@@ -1,0 +1,55 @@
+.layer-imges{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    transition: .6s opacity;
+    cursor: pointer;
+
+}
+
+.layer-imges:hover{
+    opacity: 1;
+
+}
+
+.icon{
+    color: #2c3e50;
+    margin: -5px;
+}
+
+.h1{
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+
+.line::before{
+    content:"";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #2c3e50;
+    position: absolute;
+    left: 1;
+    top: 50%;
+    z-index: -2;
+}
+
+.line::after{
+    content:"";
+    display: block;
+    width: 100px; 
+    height: 4px;
+    background-color: #2c3e50;
+    position: absolute;
+    right:0;
+    top: 50%;
+    z-index: -2;
+}
+
+.model-fade{
+    z-index: 9999;
+}
+
+img{
+    width: 700px;
+}
